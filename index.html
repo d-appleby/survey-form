@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novatas Recruitment Testimonial</title>
+  </head>
+  <body>
+    <!--Header-->
+
+    <header class="header">
+      <h1 id="title">Novatas Recruitment Testimonial</h1>
+      <p id="description">
+        Thanks for taking your time to give us feedback and help improve our
+        service
+      </p>
+    </header>
+
+    <!--Form-->
+
+    <form id="survey-form" class="survey-form">
+      <div class="form-group">
+        <label id="name-label" class="name-label">
+          Name
+          <input type="text" id="name" required placeholder=" Full Name" />
+        </label>
+      </div>
+      <div class="form-group">
+        <label id="email-label" class="email-label">
+          Email
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder=" We won't send you spam :)"
+          />
+        </label>
+      </div>
+      <div class="form-group">
+        <label id="number-label" class="number-label">
+          How would you rate the service out of 10?
+          <input
+            type="number"
+            id="number"
+            min="0"
+            max="10"
+            value="number"
+            name=""
+            placeholder=" We try our best"
+          />
+        </label>
+      </div>
+      <div class="form-group">
+        <p>Which option best describes you?</p>
+        <select id="dropdown" class="dropdown" name="describe">
+          <option value="please-select">Please select</option>
+          <option value="employer">Employer</option>
+          <option value="employee">Employee</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>Would you recommend our service?</p>
+        <label class="recommend-yes">
+          <input checked type="radio" value="yes" name="recommend" />Yes
+        </label>
+        <label class="recommend-no">
+          <input type="radio" value="no" name="recommend" />No
+        </label>
+      </div>
+      <div class="form-group">
+        <p>How did you hear about us?</p>
+        <label class="hear-label">
+          <input type="checkbox" value="linkedin" name="marketing" />
+          Linkedin
+        </label>
+        <label class="hear-label">
+          <input type="checkbox" value="google" name="marketing" />
+          Google</label
+        >
+        <label class="hear-label">
+          <input type="checkbox" value="twitter" name="marketing" />
+          Twitter</label
+        >
+        <label class="hear-label">
+          <input type="checkbox" value="other" name="marketing" />
+          Other</label
+        >
+      </div>
+      <div class="form-group">
+        <p>Any comments or suggestions?</p>
+        <textarea rows="5" cols="50">
+ Enter your comment here...
+    </textarea
+        >
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+
+    <!--Footer-->
+
+    <footer class="footer">
+      <p>
+        Novatas Recruitment © 2021. All Rights Reserved. Web design by Dale
+        Appleby
+      </p>
+    </footer>
+  </body>
+</html>

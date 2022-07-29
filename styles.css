@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Header*/
+
+.header {
+  width: 100%;
+  height: 5em;
+  background-color: #656c6c;
+  border-bottom: 1px solid white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+.header p {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+
+/*Form*/
+
+.survey-form {
+  background-color: #f0ede8;
+  max-width: 500px;
+  margin: 1em auto 1em auto;
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 0.5em;
+}
+
+p {
+  color: #656c6c;
+  font-size: 1em;
+}
+
+.form-group {
+  display: block;
+  padding: 0.75em;
+  color: #656c6c;
+  font-size: 1em;
+}
+
+input {
+  width: 100%;
+  border-radius: 0.25em;
+  border: 2px solid black;
+  line-height: 2;
+}
+
+select {
+  font-family: sans-serif;
+  border-radius: 0.25rem;
+  width: 100%;
+  border: 2px solid black;
+  height: 2.5em;
+}
+
+.recommend-yes {
+  display: flex;
+  padding: 0.25em 0;
+}
+
+.recommend-yes input {
+  width: 10%;
+}
+
+.recommend-no {
+  display: flex;
+  padding: 0.25em 0;
+}
+
+.recommend-no input {
+  width: 10%;
+}
+
+.hear-label {
+  display: flex;
+  padding: 0.25em 0;
+}
+
+.hear-label input {
+  width: 10%;
+}
+
+textarea {
+  font-family: sans-serif;
+  border-radius: 0.25rem;
+  width: 100%;
+  border: 2px solid black;
+}
+
+button {
+  display: block;
+  background-color: #656c6c;
+  color: #f0ede8;
+  border-radius: 0.25rem;
+  margin: 20 auto;
+  width: 100%;
+  height: 2rem;
+  font-size: 1em;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 5em;
+  background-color: #656c6c;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: white;
+  font-size: 1em;
+}
+
+/*Media */
+
+@media (min-width: 414px) and (max-width: 783px) {
+  h1 {
+    font-size: 1.5em;
+    padding-top: 0.75em;
+  }
+
+  .header p {
+    font-size: 0.75em;
+  }
+
+  .footer p {
+    font-size: 0.75em;
+    padding: 1em;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+  h1 {
+    font-size: 1.4em;
+    padding-top: 0.75em;
+  }
+
+  .header p {
+    font-size: 0.7em;
+  }
+
+  .footer p {
+    font-size: 0.7em;
+    padding: 1em;
+  }
+}
